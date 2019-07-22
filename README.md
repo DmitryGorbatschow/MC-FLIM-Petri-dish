@@ -53,5 +53,4 @@ Note this is the same macro (but with other input settings) as FLIM_96wells_macr
 - 96 wells or 384 wells: This should be unselected and is a dummy input for analyzing FLIM data from petridish. It selects the format of the well plate.
 
 
-## links
-[Visualizing heterogeneity](http://thenode.biologists.com/visualizing-heterogeneity-of-imaging-data/research/)
+
