@@ -27,7 +27,7 @@ Test can be downloaded from following zenodo repository : https://doi.org/10.528
 
 ## Explanation input dialog for FLIM_96wells_macro_v14.ijm
 Note this is the same macro (but with other input settings) as FLIM_96wells_macro_v14.
-- Work on current image or load from directory: Here you can choose to either use the current (e.g. a FLIM stack with 3 FLIM images: DC, tau(phi), tau(mod) image already displayed in ImageJ, or you load a file from a directory. The latter should be an image stack with 3 images: a DC image, a tau(phi) image and a tau(mod) image. These tau(phi) and tau(mod) images should have the fluorescence lifetimes in ps (1000x ns).
+- Work on current image or load from directory: Here you can choose to either use the current (e.g. a FLIM stack with 3 FLIM images: DC, tau(phi), tau(mod)) image already displayed in ImageJ, or you load a file from a directory. The latter should be an image stack with 3 images: a DC image, a tau(phi) image and a tau(mod) image. These tau(phi) and tau(mod) images should have the fluorescence lifetimes in ps (1000x ns).
 - Minimal/Maximal Tau for display (ns): Sets the minimal/maximal value of the lookup table for display of the lifetime values.
 - Fixed background value or modal value background: Here you can choose how cells are recognized in the DC image, either by selecting a fixed threshold intensity above which you assume there are cells, or a modal value determination that determines the modal (background) grey value and uses a statistical evaluation of pixels above this background.
 - In case of fixed BG, low threshold for Intensity: in case the previous choice was fixed, this is the lower intensity threshold in the DC image for selecting cells in the analysis, otherwise this is a dummy input.
